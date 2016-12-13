@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>This is fine</title>
-<style type="text/css">
-body {
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: #000;
-}
-</style>
+  <head>
+  <title>This is fine</title>
+  <style type="text/css">
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: #5B5241 url("assets/preview.jpg") no-repeat;
+      background-size: cover;
+    }
+  </style>
 </head>
 <body>
 <!-- https://github.com/Vilsepi/this-is-fine -->
-<a href="https://www.youtube.com/watch?v=0oBx7Jg4m-o">
-  <video width="100%" height="auto" preload="true" autoplay="autoplay" loop="loop" muted>
-    <source src="fine.mp4">
-    Your browser does not support HTML5 video. This is fine.
-  </video>
-</a>
+
+<video 
+  width="100%" height="auto" preload="auto" autoplay="autoplay" loop="loop" muted onclick="location.reload();location.href='https://www.youtube.com/watch?v=0oBx7Jg4m-o'">
+  <source src="assets/loop.mp4">
+  Your browser does not support HTML5 video. This is fine.
+</video>
+
 </body>
 </html>
